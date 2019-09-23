@@ -14,7 +14,7 @@ Japanese Flashcards is a bare-bones application for studying Japanese vocabulary
 In your terminal, navigate to the project directory and npm install.
 
 ```bash
-cd JapaneseFlashcards
+cd japanese-flashcards
 npm install
 ```
 
@@ -25,11 +25,13 @@ npm install
 npm start
 ```
 
-In a browser, navigate to [localhost:8089] (localhost:8089).
+Use a browser to open "src/index.html".
 
 Choose which form (English, Kana or Kanji) you would like to appear on the front of the flashcard and click "Next Card". Click the card to reveal the other side.
 
 Cards will be removed from the deck unless the "Keep card in deck?" box is checked. If you run out of cards or would like to start over, click "Reset".
+
+A flashcard object will be logged to the console.
 
 
 ## More Information
