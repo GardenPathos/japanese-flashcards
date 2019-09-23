@@ -1,0 +1,16 @@
+{
+  "name": "Flashcards",
+  "version": "0.0.1",
+  "description": "A project for practicing Japanese vocabulary via a simple UI",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo 'This app does not have any tests.'"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "restify": "^8.4.0",
+    "restify-errors": "^8.0.1",
+    "restify-plugins": "^1.6.0"
+  }
+}
